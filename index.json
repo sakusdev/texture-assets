@@ -1,7 +1,198 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T05:44:02.887101+00:00",
+  "generatedAt": "2026-10-12T05:53:44.000164+00:00",
   "assets": [
+    {
+      "id": "concrete-wall-001",
+      "slug": "concrete-wall-001",
+      "name": "Concrete Wall 001",
+      "category": "Concrete",
+      "tags": [
+        "concrete",
+        "wall",
+        "brutalist",
+        "architectural"
+      ],
+      "description": "Neutral cast concrete with fine pores, broad tonal breakup and subtle surface waviness.",
+      "seamless": true,
+      "featured": true,
+      "license": "TAfC-Free",
+      "preview": "assets/concrete-wall-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/concrete-wall-001/1K/ConcreteWall001_1K_BaseColor.png",
+        "normal": "assets/concrete-wall-001/1K/ConcreteWall001_1K_Normal.png",
+        "roughness": "assets/concrete-wall-001/1K/ConcreteWall001_1K_Roughness.png",
+        "height": "assets/concrete-wall-001/1K/ConcreteWall001_1K_Height.png",
+        "ao": "assets/concrete-wall-001/1K/ConcreteWall001_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/concrete-wall-001/downloads/Concrete-Wall-001-1K.zip",
+          "sizeBytes": 1312558
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/concrete-wall-001/downloads/Concrete-Wall-001-2K.zip",
+          "sizeBytes": 3566546
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/concrete-wall-001/downloads/Concrete-Wall-001-4K.zip",
+          "sizeBytes": 9357595
+        }
+      ]
+    },
+    {
+      "id": "wet-concrete-floor-001",
+      "slug": "wet-concrete-floor",
+      "name": "Wet Concrete Floor",
+      "category": "Ground",
+      "tags": [
+        "concrete",
+        "wet",
+        "floor",
+        "reflective",
+        "liminal"
+      ],
+      "description": "Dark concrete floor with irregular wet patches, shallow surface variation and low roughness puddling.",
+      "seamless": true,
+      "featured": true,
+      "license": "TAfC-Free",
+      "preview": "assets/wet-concrete-floor-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/wet-concrete-floor-001/1K/WetConcreteFloor_1K_BaseColor.png",
+        "normal": "assets/wet-concrete-floor-001/1K/WetConcreteFloor_1K_Normal.png",
+        "roughness": "assets/wet-concrete-floor-001/1K/WetConcreteFloor_1K_Roughness.png",
+        "height": "assets/wet-concrete-floor-001/1K/WetConcreteFloor_1K_Height.png",
+        "ao": "assets/wet-concrete-floor-001/1K/WetConcreteFloor_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/wet-concrete-floor-001/downloads/Wet-Concrete-Floor-001-1K.zip",
+          "sizeBytes": 1698292
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/wet-concrete-floor-001/downloads/Wet-Concrete-Floor-001-2K.zip",
+          "sizeBytes": 5035089
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/wet-concrete-floor-001/downloads/Wet-Concrete-Floor-001-4K.zip",
+          "sizeBytes": 12786029
+        }
+      ]
+    },
+    {
+      "id": "rusty-metal-panel-001",
+      "slug": "rusty-metal-panel",
+      "name": "Rusty Metal Panel",
+      "category": "Metal",
+      "tags": [
+        "metal",
+        "rust",
+        "industrial",
+        "panel"
+      ],
+      "description": "Industrial steel panels with seams, worn oxidation, pitting and a physically based metallic mask.",
+      "seamless": true,
+      "featured": true,
+      "license": "TAfC-Free",
+      "preview": "assets/rusty-metal-panel-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/rusty-metal-panel-001/1K/RustyMetalPanel_1K_BaseColor.png",
+        "normal": "assets/rusty-metal-panel-001/1K/RustyMetalPanel_1K_Normal.png",
+        "roughness": "assets/rusty-metal-panel-001/1K/RustyMetalPanel_1K_Roughness.png",
+        "height": "assets/rusty-metal-panel-001/1K/RustyMetalPanel_1K_Height.png",
+        "ao": "assets/rusty-metal-panel-001/1K/RustyMetalPanel_1K_AO.png",
+        "metallic": "assets/rusty-metal-panel-001/1K/RustyMetalPanel_1K_Metallic.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/rusty-metal-panel-001/downloads/Rusty-Metal-Panel-001-1K.zip",
+          "sizeBytes": 1378882
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/rusty-metal-panel-001/downloads/Rusty-Metal-Panel-001-2K.zip",
+          "sizeBytes": 4280771
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/rusty-metal-panel-001/downloads/Rusty-Metal-Panel-001-4K.zip",
+          "sizeBytes": 10884683
+        }
+      ]
+    },
+    {
+      "id": "blue-ceramic-pool-tile-001",
+      "slug": "blue-ceramic-pool-tile",
+      "name": "Blue Ceramic Pool Tile",
+      "category": "Tiles",
+      "tags": [
+        "ceramic",
+        "pool",
+        "blue",
+        "glossy",
+        "liminal"
+      ],
+      "description": "Glossy blue ceramic pool tiles with subtle per-tile color variation and aged grout.",
+      "seamless": true,
+      "featured": true,
+      "license": "TAfC-Free",
+      "preview": "assets/blue-ceramic-pool-tile-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/blue-ceramic-pool-tile-001/1K/BlueCeramicPoolTile_1K_BaseColor.png",
+        "normal": "assets/blue-ceramic-pool-tile-001/1K/BlueCeramicPoolTile_1K_Normal.png",
+        "roughness": "assets/blue-ceramic-pool-tile-001/1K/BlueCeramicPoolTile_1K_Roughness.png",
+        "height": "assets/blue-ceramic-pool-tile-001/1K/BlueCeramicPoolTile_1K_Height.png",
+        "ao": "assets/blue-ceramic-pool-tile-001/1K/BlueCeramicPoolTile_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/blue-ceramic-pool-tile-001/downloads/Blue-Ceramic-Pool-Tile-001-1K.zip",
+          "sizeBytes": 626041
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/blue-ceramic-pool-tile-001/downloads/Blue-Ceramic-Pool-Tile-001-2K.zip",
+          "sizeBytes": 1639638
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/blue-ceramic-pool-tile-001/downloads/Blue-Ceramic-Pool-Tile-001-4K.zip",
+          "sizeBytes": 3595748
+        }
+      ]
+    },
     {
       "id": "white-ceramic-pool-tile-001",
       "slug": "white-ceramic-pool-tile",
@@ -47,6 +238,242 @@
           "height": 4096,
           "download": "assets/white-ceramic-pool-tile-001/downloads/White-Ceramic-Pool-Tile-001-4K.zip",
           "sizeBytes": 3136063
+        }
+      ]
+    },
+    {
+      "id": "old-plaster-wall-001",
+      "slug": "old-plaster-wall",
+      "name": "Old Plaster Wall",
+      "category": "Plaster",
+      "tags": [
+        "plaster",
+        "wall",
+        "aged",
+        "cracked"
+      ],
+      "description": "Warm aged plaster with chalky variation, worn discoloration and fine branching cracks.",
+      "seamless": true,
+      "featured": false,
+      "license": "TAfC-Free",
+      "preview": "assets/old-plaster-wall-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/old-plaster-wall-001/1K/OldPlasterWall_1K_BaseColor.png",
+        "normal": "assets/old-plaster-wall-001/1K/OldPlasterWall_1K_Normal.png",
+        "roughness": "assets/old-plaster-wall-001/1K/OldPlasterWall_1K_Roughness.png",
+        "height": "assets/old-plaster-wall-001/1K/OldPlasterWall_1K_Height.png",
+        "ao": "assets/old-plaster-wall-001/1K/OldPlasterWall_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/old-plaster-wall-001/downloads/Old-Plaster-Wall-001-1K.zip",
+          "sizeBytes": 1636077
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/old-plaster-wall-001/downloads/Old-Plaster-Wall-001-2K.zip",
+          "sizeBytes": 4483743
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/old-plaster-wall-001/downloads/Old-Plaster-Wall-001-4K.zip",
+          "sizeBytes": 11703075
+        }
+      ]
+    },
+    {
+      "id": "mossy-stone-001",
+      "slug": "mossy-stone",
+      "name": "Mossy Stone",
+      "category": "Stone",
+      "tags": [
+        "stone",
+        "moss",
+        "damp",
+        "nature"
+      ],
+      "description": "Weathered stone blocks with damp tonal variation and moss gathering around recessed joints.",
+      "seamless": true,
+      "featured": false,
+      "license": "TAfC-Free",
+      "preview": "assets/mossy-stone-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/mossy-stone-001/1K/MossyStone_1K_BaseColor.png",
+        "normal": "assets/mossy-stone-001/1K/MossyStone_1K_Normal.png",
+        "roughness": "assets/mossy-stone-001/1K/MossyStone_1K_Roughness.png",
+        "height": "assets/mossy-stone-001/1K/MossyStone_1K_Height.png",
+        "ao": "assets/mossy-stone-001/1K/MossyStone_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/mossy-stone-001/downloads/Mossy-Stone-001-1K.zip",
+          "sizeBytes": 1433335
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/mossy-stone-001/downloads/Mossy-Stone-001-2K.zip",
+          "sizeBytes": 4294907
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/mossy-stone-001/downloads/Mossy-Stone-001-4K.zip",
+          "sizeBytes": 10446499
+        }
+      ]
+    },
+    {
+      "id": "checker-tile-001",
+      "slug": "checker-tile",
+      "name": "Checker Tile",
+      "category": "Tiles",
+      "tags": [
+        "tile",
+        "checker",
+        "floor",
+        "liminal"
+      ],
+      "description": "Muted checker floor tiles with lightly aged ceramic faces and recessed grout.",
+      "seamless": true,
+      "featured": false,
+      "license": "TAfC-Free",
+      "preview": "assets/checker-tile-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/checker-tile-001/1K/CheckerTile_1K_BaseColor.png",
+        "normal": "assets/checker-tile-001/1K/CheckerTile_1K_Normal.png",
+        "roughness": "assets/checker-tile-001/1K/CheckerTile_1K_Roughness.png",
+        "height": "assets/checker-tile-001/1K/CheckerTile_1K_Height.png",
+        "ao": "assets/checker-tile-001/1K/CheckerTile_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/checker-tile-001/downloads/Checker-Tile-001-1K.zip",
+          "sizeBytes": 619074
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/checker-tile-001/downloads/Checker-Tile-001-2K.zip",
+          "sizeBytes": 1643304
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/checker-tile-001/downloads/Checker-Tile-001-4K.zip",
+          "sizeBytes": 3729919
+        }
+      ]
+    },
+    {
+      "id": "dark-ceramic-tile-001",
+      "slug": "dark-ceramic-tile",
+      "name": "Dark Ceramic Tile",
+      "category": "Tiles",
+      "tags": [
+        "ceramic",
+        "tile",
+        "dark",
+        "glossy",
+        "architectural"
+      ],
+      "description": "Dark charcoal ceramic tiles with restrained gloss, fine grout and subtle tonal variation.",
+      "seamless": true,
+      "featured": false,
+      "license": "TAfC-Free",
+      "preview": "assets/dark-ceramic-tile-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/dark-ceramic-tile-001/1K/DarkCeramicTile_1K_BaseColor.png",
+        "normal": "assets/dark-ceramic-tile-001/1K/DarkCeramicTile_1K_Normal.png",
+        "roughness": "assets/dark-ceramic-tile-001/1K/DarkCeramicTile_1K_Roughness.png",
+        "height": "assets/dark-ceramic-tile-001/1K/DarkCeramicTile_1K_Height.png",
+        "ao": "assets/dark-ceramic-tile-001/1K/DarkCeramicTile_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/dark-ceramic-tile-001/downloads/Dark-Ceramic-Tile-001-1K.zip",
+          "sizeBytes": 633050
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/dark-ceramic-tile-001/downloads/Dark-Ceramic-Tile-001-2K.zip",
+          "sizeBytes": 1669819
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/dark-ceramic-tile-001/downloads/Dark-Ceramic-Tile-001-4K.zip",
+          "sizeBytes": 3752185
+        }
+      ]
+    },
+    {
+      "id": "wood-planks-001",
+      "slug": "wood-planks-001",
+      "name": "Wood Planks 001",
+      "category": "Wood",
+      "tags": [
+        "wood",
+        "planks",
+        "floor",
+        "architectural"
+      ],
+      "description": "Warm medium-brown wood planks with directional grain, fine seams and restrained surface relief.",
+      "seamless": true,
+      "featured": false,
+      "license": "TAfC-Free",
+      "preview": "assets/wood-planks-001/preview.webp",
+      "maps": {
+        "baseColor": "assets/wood-planks-001/1K/WoodPlanks001_1K_BaseColor.png",
+        "normal": "assets/wood-planks-001/1K/WoodPlanks001_1K_Normal.png",
+        "roughness": "assets/wood-planks-001/1K/WoodPlanks001_1K_Roughness.png",
+        "height": "assets/wood-planks-001/1K/WoodPlanks001_1K_Height.png",
+        "ao": "assets/wood-planks-001/1K/WoodPlanks001_1K_AO.png"
+      },
+      "resolutions": [
+        {
+          "label": "1K",
+          "width": 1024,
+          "height": 1024,
+          "download": "assets/wood-planks-001/downloads/Wood-Planks-001-1K.zip",
+          "sizeBytes": 2069744
+        },
+        {
+          "label": "2K",
+          "width": 2048,
+          "height": 2048,
+          "download": "assets/wood-planks-001/downloads/Wood-Planks-001-2K.zip",
+          "sizeBytes": 6547023
+        },
+        {
+          "label": "4K",
+          "width": 4096,
+          "height": 4096,
+          "download": "assets/wood-planks-001/downloads/Wood-Planks-001-4K.zip",
+          "sizeBytes": 16950328
         }
       ]
     }
