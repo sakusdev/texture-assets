@@ -1,0 +1,29 @@
+name: Import AI texture sources
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'imports/ai-textures.tar.gz'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract AI-generated texture sources
+        run: |
+          mkdir -p sources/ai
+          tar -xzf imports/ai-textures.tar.gz -C sources/ai
+          rm imports/ai-textures.tar.gz
+      - name: Commit imported images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/ai imports/ai-textures.tar.gz
+          git commit -m 'assets: import AI-generated texture sources [skip ci]'
+          git push
