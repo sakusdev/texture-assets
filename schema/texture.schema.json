@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/sakusdev/texture-assets/main/schema/texture.schema.json",
+  "title": "TAfC Texture Asset",
+  "type": "object",
+  "required": ["id", "slug", "name", "category", "description", "tags", "seamless", "preview", "maps", "resolutions"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "name": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "minLength": 1 },
+    "description": { "type": "string", "minLength": 1 },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "seamless": { "type": "boolean" },
+    "featured": { "type": "boolean", "default": false },
+    "license": { "type": "string", "default": "CC0-1.0" },
+    "preview": { "type": "string", "minLength": 1 },
+    "maps": {
+      "type": "object",
+      "required": ["baseColor"],
+      "properties": {
+        "baseColor": { "type": "string" },
+        "normal": { "type": "string" },
+        "roughness": { "type": "string" },
+        "height": { "type": "string" },
+        "ao": { "type": "string" },
+        "metallic": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "resolutions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["label", "width", "height", "download"],
+        "properties": {
+          "label": { "type": "string", "pattern": "^[0-9]+K$" },
+          "width": { "type": "integer", "minimum": 1 },
+          "height": { "type": "integer", "minimum": 1 },
+          "download": { "type": "string", "minLength": 1 },
+          "sizeBytes": { "type": "integer", "minimum": 0 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
